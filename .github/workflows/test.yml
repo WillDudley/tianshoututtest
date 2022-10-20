@@ -27,6 +27,9 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+      - name: Test PZ import
+        run: |
+          python -c "from tianshou.env.pettingzoo_env import PettingZooEnv"
       - name: Test if file runs
         run: |
           python 1_basic_api_usage.py

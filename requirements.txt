@@ -1,0 +1,2 @@
+git+https://github.com/thu-ml/tianshou
+pettingzoo==1.22.0

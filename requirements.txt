@@ -1,3 +1,4 @@
 git+https://github.com/thu-ml/tianshou
 packaging==21.3
+pygame==2.1.2
 pettingzoo==1.22.0

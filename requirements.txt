@@ -1,2 +1,3 @@
 git+https://github.com/thu-ml/tianshou
+packaging==21.3
 pettingzoo==1.22.0
